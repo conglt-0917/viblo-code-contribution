@@ -18,22 +18,6 @@ X_5 = [3, 3, 3]   -> X_5[1] = X_4[0] - X_4[1] = 6 - 3
 
 The returning output is the sum of the final transformation (here 9).
 
-## Example
-
-```js
-solution([6, 9, 21]) -> 9
-```
-
-## Solution steps:
-
-```js
-[6, 9, 12] -> X[2] = 21 - 9
-[6, 9, 6] -> X[2] = 12 - 6
-[6, 3, 6] -> X[1] = 9 - 6
-[6, 3, 3] -> X[2] = 6 - 3
-[3, 3, 3] -> X[1] = 6 - 3
-```
-
 ## Additional notes:
 
 There are performance tests consisted of very big numbers and arrays of size at least 30000. Please write an efficient algorithm to prevent timeout.
